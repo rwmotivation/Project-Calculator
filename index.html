@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BASIC CALCULATOR</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>CALCULATOR</header>
+        <div class="calcContainer">
+            <div class="display">
+                <input type="text" class ="inputDisplay" id="input" maxlength="10" autofocus>
+                <input type="text" id="resultTxt" readonly="readonly"></input>
+            </div>
+            <div class="keys">
+                <button class="numBtn" id="btn9" value="9">9</button>
+                <button class="numBtn" id="btn8" value="8">8</button>
+                <button class="numBtn" id="btn7" value="7">7</button>
+                <button class="numBtn" id="btn6" value="6">6</button>
+                <button class="numBtn" id="btn5" value="5">5</button>
+                <button class="numBtn" id="btn4" value="4">4</button>
+                <button class="numBtn" id="btn3" value="3">3</button>
+                <button class="numBtn" id="btn2" value="2">2</button>
+                <button class="numBtn" id="btn1" value="1">1</button>
+                <button class="numBtn" id="btn0" value="0">0</button>
+                <button class="numBtn" id="decBtn" value=".">.</button>
+                
+                <button class="operatorBtn" id="addBtn" value="+">+</button>
+                <button class="operatorBtn" id="subBtn" value="-">-</button>
+                <button class="operatorBtn" id="multBtn" value="*">x</button>
+                <button class="operatorBtn" id="divBtn" value="/">/</button>
+
+                <button class="otherBtn" id="equalBtn">=</button>
+                <button class="otherBtn" id="changeSignBtn">+/-</button>
+                <button class="otherBtn" id="backBtn">BACK</button>
+                <button class="otherBtn" id="clearBtn">AC</button>
+            </div>
+        </div>
+        <footer>Made by Rahul Williams </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
