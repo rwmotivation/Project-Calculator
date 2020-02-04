@@ -54,7 +54,7 @@ button {
   border: 1px solid #c4c4c4;
   background-color: white;
   font-size: 3rem;
-  color: rgb(0, 0, 0);
+  color: red;
 }
 
 button:hover {
